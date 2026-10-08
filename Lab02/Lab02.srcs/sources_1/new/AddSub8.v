@@ -33,7 +33,6 @@ module AddSub8 (
 
   assign inv_B_w = ~B;
 
-
   mux8bit B_inv_B_mux (
       .A  (B),
       .B  (inv_B_w),

@@ -37,7 +37,6 @@ module test_signchanger ();  // no inputs/outputs, this is a wrapper
   top_lab2 UUT (
       .sw(sw),
       .btnU(btnU),
-      .btnR(btnR),
       .clkin(clkin),
       .seg(seg),
       .an(an),
